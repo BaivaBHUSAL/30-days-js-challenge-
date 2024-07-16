@@ -34,8 +34,13 @@ console.log(hero);
 
 //Activity 5-- Understang const
 
-number=34;
-console.log(number);
+// number=34;
+// console.log(number);
+//hence const cannot be reassigned
+// number=34;
+//       ^
+
+// TypeError: Assignment to constant variable.
 
 
 
