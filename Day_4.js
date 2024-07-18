@@ -55,29 +55,52 @@ do{
 // a--;
 // }while(fact>=0)
 // console.log(factorial);
-// console.log("..........................................................................");
+console.log("..........................................................................");
 
-//Print pattern
+// Print pattern
 // *
 // **
 // ***
 // ****
 // *****
-
+let star=[];
 for(let i=1;i<=5;i++)
 {
     for(let j=1;j<=i;j++)
         {
-              console.log("*");
+             star.push("*");
         } 
-    console.log("\n");
+    console.log(...star);
+    for(let j=1;j<=i;j++)
+        {
+             star.pop();
+        } 
+    
 }
+console.log("..........................................................................");
 
-for(let i=1;i<=10;i++)
+//Activity 5 --loop control statement
+for(let k=1;k<=10;k++)
 {
-    if(i=5)
+    if(k==5)
     {
         continue;
     }
-    console.log(i);
+    else{
+    console.log(k);
+    }
 }
+
+console.log("..........................................................................");
+
+//break after 7
+for(let k=1;k<=10;k++)
+    {
+        if(k==7)
+        {
+            break;
+        }
+        else{
+        console.log(k);
+        }
+    }
