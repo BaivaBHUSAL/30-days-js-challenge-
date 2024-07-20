@@ -33,7 +33,10 @@ console.log("........................................................");
 const filter1=myArray.filter((x)=>x%2!=0);
 console.log(filter1);
 
+// Activity 4--array iterative
 for(let i of myArray)
 {
     console.log(i);
 }
+
+
